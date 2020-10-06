@@ -15,8 +15,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <otp.spring.boot.version>2.3.4.RELEASE</otp.spring.boot.version>
     <java.version>1.11</java.version>
-    <maven.compiler.source>1.11</maven.compiler.source>
-    <maven.compiler.target>1.11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
     <commons-lang3.version>3.11</commons-lang3.version>
     <checkstyle.version>8.36.2</checkstyle.version>
     <junit5.version>5.7.0</junit5.version>
