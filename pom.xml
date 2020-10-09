@@ -23,6 +23,7 @@
     <spring.cloud.stream.version>3.0.8.RELEASE</spring.cloud.stream.version>
     <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
     <testcontainers.version>1.14.3</testcontainers.version>
+    <spring.cloud.configserver.version>2.2.5.RELEASE</spring.cloud.configserver.version>
   </properties>
 
 
@@ -43,6 +44,16 @@
         <artifactId>spring-cloud-stream-test-support</artifactId>
         <version>${spring.cloud.stream.version}</version>
         <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-config-server</artifactId>
+        <version>${spring.cloud.configserver.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-config</artifactId>
+        <version>${spring.cloud.configserver.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
