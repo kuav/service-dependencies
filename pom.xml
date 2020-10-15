@@ -96,7 +96,7 @@
   </dependencyManagement>
 
   <build>
-    <finalName>service-dependencies</finalName>
+    <finalName>prcat-service-dependencies</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
