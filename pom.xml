@@ -24,6 +24,7 @@
     <spring.cloud.configserver.version>2.2.5.RELEASE</spring.cloud.configserver.version>
     <spring.cloud.gateway.version>2.2.5.RELEASE</spring.cloud.gateway.version>
     <mongock.version>4.1.17</mongock.version>
+    <prcat.starter.auth.version>0.1.0</prcat.starter.auth.version>
   </properties>
 
 
@@ -109,6 +110,11 @@
         <version>${mongock.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>ru.otpbank.prcat.starter</groupId>
+        <artifactId>prcat-auth-starter</artifactId>
+        <version>${prcat.starter.auth.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
