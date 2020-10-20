@@ -23,6 +23,7 @@
     <testcontainers.version>1.14.3</testcontainers.version>
     <spring.cloud.configserver.version>2.2.5.RELEASE</spring.cloud.configserver.version>
     <spring.cloud.gateway.version>2.2.5.RELEASE</spring.cloud.gateway.version>
+    <mongock.version>4.1.17</mongock.version>
   </properties>
 
 
@@ -101,6 +102,13 @@
             <artifactId>testcontainers</artifactId>
           </exclusion>
         </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>com.github.cloudyrock.mongock</groupId>
+        <artifactId>mongock-bom</artifactId>
+        <version>${mongock.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
